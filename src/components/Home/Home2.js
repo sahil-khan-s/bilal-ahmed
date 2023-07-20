@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -45,6 +46,7 @@ function Home2() {
                   {" "}
                    I passionately explore the art of building exceptional digital experiences. 
                 </b>
+                
               </i>
             
             </p>
@@ -57,9 +59,10 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1 style={{fontSize:"45px"}}>FIND ME ON</h1>
-            <p>
-            <span style={{fontSize:"35px"}} className="purple">contact </span><span style={{fontSize:"35px"}} >with me  </span>
+            
+            <p style={{marginTop:"40px" ,}}>
+            <span id="find-me-on" style={{fontSize:"45px" , }} >CONTACT </span><span style={{fontSize:"45px"}} className="purple" >WITH   </span><span style={{fontSize:"45px"}}>ME</span>
+            <br/>
             <br/>
             <span style={{fontSize:"25px"}}>I am available on almost every social media.  You can message me, I will reply within 24 hours. <br/> I can help you with Frontend Web Development, React js, Next js etc.</span>
             </p>
@@ -82,7 +85,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                 <span style={{fontSize:"20px" , fontWeight:"bolder", }} className="icon-colour ">G </span>
+                 <span style={{fontSize:"20px" , fontWeight:"700", }} className="icon-colour ">G </span>
                 </a>
               </li>
               <li className="social-icons">
@@ -97,12 +100,22 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/ism_ail_449"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.facebook.com/xtylish.awanxada.7"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillFacebook />
                 </a>
               </li>
             </ul>
