@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import stellarstack from "../../Assets/Projects/stellarstack.jpeg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,12 +23,18 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+            style={{padding:"30px"}}
+              imgPath={stellarstack}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="StellarStack"
+              description="StellarStack is a growing leader in.
+              the IT and Marketing Industry.
+              StellarStack enables clients to manage digital
+identity by providing them eminent services
+Since 2018, StellarStack has been helping organizations
+worldwide get reliable websites without any fuss."
+              ghLink=""
+              demoLink="https://www.stellarstack.co/"
             />
           </Col>
 
@@ -36,10 +42,11 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="growthware"
+              description="Our Mission To revolutionize business and economic growth above all else and broadcast it to the world.
+              Innovating for Small Business"
+              ghLink=""
+              demoLink="https://growthware.com/"
             />
           </Col>
 
