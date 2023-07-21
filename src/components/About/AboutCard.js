@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Muhammad ismaeel </span>
             from <span className="purple"> Haripur kpk , Pakistan</span>
-            <br /> I have done my bachler's Degree in Computer Science(CS).
+            <br /> I have done my bachler's Degree in Computer Science(CS) from  <a className="purple" href="https://aust.edu.pk/" target="_blank" rel="noopener noreferrer"> AUST .</a>
             <br />
            i have completed a 3-month internship and subsequently being hired as a Frontend Developer, <br /> <br />I have acquired 1+ year of valuable experience in frontend development. <br />My proficiency in crafting pixel-perfect and fully responsive frontend designs using technologies such as React, Next.js, and Typescript sets me apart as a capable and driven professional.
             <br /> <br />
