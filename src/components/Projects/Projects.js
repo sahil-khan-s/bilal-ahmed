@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import frow from "../../Assets/Projects/frow.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import stellarstack from "../../Assets/Projects/stellarstack.jpeg";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import growthware from "../../Assets/Projects/growthware.png";
+import pureh2o from "../../Assets/Projects/pureh2o.png";
 
 function Projects() {
   return (
@@ -40,10 +40,10 @@ worldwide get reliable websites without any fuss."
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={growthware}
               isBlog={false}
               title="growthware"
-              description="Our Mission To revolutionize business and economic growth above all else and broadcast it to the world.
+              description="The Growthware platform provides all essential tools to build a powerful funnel that will drive leads to being loyal customers. It focuses on 'growth', to quickly identify and address areas where more business can be gained and it allows you to stay ahead of competitors while transforming prospects into repeat buyers..
               Innovating for Small Business"
               ghLink=""
               demoLink="https://growthware.com/"
@@ -63,16 +63,16 @@ worldwide get reliable websites without any fuss."
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={pureh2o}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="FYP Pure H2O"
+              description="In the culmination of my BS in Computer Science, I spearheaded the creation of an innovative B2B E-commerce platform. Our solution provided water product companies with a dynamic stage to showcase and sell their offerings, forging seamless interactions between sellers and buyers. The project delved into marketplace dynamics, seller onboarding, product catalog management, and the buyer experience, aiming to unlock opportunities and overcome challenges in the water industry."
+              ghLink=""
+              demoLink=""
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -81,17 +81,16 @@ worldwide get reliable websites without any fuss."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={frow}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Frow"
+              description="Frow.live is a dynamic and innovative website that fosters creative expression and connection. Embracing a community-driven approach, Frow.live serves as a virtual canvas where users can share their artistic talents in real-time with others worldwide. Engage in collaborative art projects, showcase your skills, and immerse yourself in a vibrant space where imagination knows no bounds. Join Frow.live today to unleash your creativity and be part of a global community celebrating the power of art."
+              ghLink=""
+              demoLink="https://frow.live/" 
             />
           </Col>
         </Row>
