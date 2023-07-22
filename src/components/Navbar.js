@@ -92,6 +92,7 @@ function NavBar() {
               <Nav.Link
                 href="#find-me-on"
                 rel="noreferrer"
+                onClick={() => updateExpanded(false)}
               >
                 <BsPerson style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>
