@@ -21,7 +21,7 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://github.com/sahil-khan-s"
                 style={{ color: "white" }}
@@ -30,11 +30,11 @@ function Footer() {
               >
                 <AiFillGithub />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
                 <a
                 style={{textDecoration:"none" ,color: "white"  }}
-                href="mailto:muhammad.ismaeel5162@gmail.com"
+                href="bilalahmadmadakhail@gmail.com"
                   target="_blank"
                   rel=" noopener noreferrer"
                   className=""
@@ -44,7 +44,7 @@ function Footer() {
               </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/muhammad-ismaeel-461355251"
+                href="https://www.linkedin.com/in/bilal-ahmad-3815a8250"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -52,26 +52,8 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/ism_ail_449"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-            <li className="social-icons">
-                <a
-                 style={{ color: "white" }}
-                  href="https://www.facebook.com/xtylish.awanxada.7"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiFillFacebook />
-                </a>
-              </li>
+           
+          
           </ul>
         </Col>
       </Row>

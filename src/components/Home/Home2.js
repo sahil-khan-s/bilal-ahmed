@@ -67,7 +67,7 @@ function Home2() {
             <span style={{fontSize:"25px"}}>I am available on almost every social media.  You can message me, I will reply within 24 hours. <br/> I can help you with Frontend Web Development, React js, Next js etc.</span>
             </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://github.com/sahil-khan-s"
                   target="_blank"
@@ -76,11 +76,11 @@ function Home2() {
                 >
                   <AiFillGithub />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                 style={{textDecoration:"none"}}
-                href="mailto:muhammad.ismaeel5162@gmail.com"
+                href="mailto:bilalahmadmadakhail@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -90,7 +90,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/muhammad-ismaeel-461355251"
+                  href="https://www.linkedin.com/in/bilal-ahmad-3815a8250"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -100,22 +100,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/ism_ail_449"
+                  href="https://www.instagram.com/bilalkhan.mdk"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.facebook.com/xtylish.awanxada.7"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillFacebook />
                 </a>
               </li>
             </ul>

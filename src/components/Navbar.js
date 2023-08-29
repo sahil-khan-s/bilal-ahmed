@@ -35,7 +35,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-        <span style={{color:"white" , fontWeight:"bolder", fontSize:"20px"}} className="">Muhammad ismaeel</span>
+        <span style={{color:"white" , fontWeight:"bolder", fontSize:"20px"}} className="">Bilal Ahmad</span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

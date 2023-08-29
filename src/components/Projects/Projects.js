@@ -21,29 +21,8 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={project2}
-              isBlog={false}
-              title="POWERS"
-              description="Serving San Diego For Over 100 Years
-              Since 1914, Powers Plumbing has been on a mission to provide exceptional high quality plumbing services for the San Diego communities we serve. We are deeply connected to our historic Mission Hills community and are proud to serve multiple generations of families throughout San Diego"
-              ghLink="https://github.com/sahil-khan-s/powers.git"
-              demoLink="https://powers.vercel.app/"              
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={project1}
-              isBlog={false}
-              title="HAIR_SALON"
-              description="SAN DIEGO HAIR SALON
-              Wild Honey Salons in Bankers Hill, San Diego CA (formerly Fox and Jane) is the premier salon for beautiful haircuts, hair color, balayage, highlights, hair painting, color correction, scissor/razor cuts, and blowouts. Our stylists make this the most requested hair salon in the Bankers Hill and Hillcrest area.
-             "
-              ghLink="https://github.com/sahil-khan-s/powers.git"
-              demoLink="https://powers.vercel.app/"              
-            />
-          </Col>
+        
+          
           <Col md={4} className="project-card">
             <ProjectCard
               style={{ padding: "30px" }}
@@ -85,16 +64,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={frow}
-              isBlog={false}
-              title="Frow"
-              description="Frow.live is a dynamic and innovative website that fosters creative expression and connection. Embracing a community-driven approach, Frow.live serves as a virtual canvas where users can share their artistic talents in real-time with others worldwide. Engage in collaborative art projects,, and immerse yourself in a vibrant space ."
-              ghLink=""
-              demoLink="https://frow.live/"
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
